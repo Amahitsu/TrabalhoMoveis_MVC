@@ -1,11 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
-
-namespace TrabalhosMoveisMVC.Models.ModelView
+﻿namespace TrabalhosMoveisMVC.Models.ModelsView
 {
-    public class ItemModelView : Controller
+    public class ItemModelView
     {
         public String nomeMoveis { get; set; }
 
-        public Boolean checkMoveis { get; set; }
+        public String checkMoveis { get; set; }
     }
 }
