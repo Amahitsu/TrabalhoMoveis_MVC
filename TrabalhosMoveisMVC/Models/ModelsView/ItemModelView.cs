@@ -2,11 +2,11 @@
 {
     public class ItemModelView
     {
-        public String nomeMoveis { get; set; }
+        public string nomeMoveis { get; set; }
 
-        public String checkMoveis { get; set; }
+        public bool checkMoveis { get; set; }
 
-        public ItemModelView(string nomeMoveis, string checkMoveis)
+        public ItemModelView(string nomeMoveis, bool checkMoveis)
         {
             this.nomeMoveis = nomeMoveis;
             this.checkMoveis = checkMoveis;
