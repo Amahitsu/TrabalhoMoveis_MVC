@@ -7,11 +7,11 @@ namespace TrabalhosMoveisMVC.Controllers
     {
         public IActionResult ListaMoveis()
         {
-            ItemModelView itemModelView = new ItemModelView();
-            itemModelView.nomeMoveis = "cadeira";
-            itemModelView.checkMoveis = "true";
+            List<ItemModelView> itemModelViews = new List<ItemModelView>();
+            itemModelViews.Add(new ItemModelView("Mesa", "False"));
+            itemModelViews.Add(new ItemModelView("nome", "true"));
 
-            return View(itemModelView);
+            return View(itemModelViews);
         }
     }
 }
